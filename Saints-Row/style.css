@@ -1,0 +1,470 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    margin: 0;
+}
+header {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+} 
+
+.online {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 10px;
+    margin-left: 10px;
+} 
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    transition: 0.7s;
+
+} 
+
+ a:hover {
+    color: purple;
+    transform: scale(1.1);
+
+}
+
+h1 {
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    background-color: #971997;
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.main {
+    background-image: url("imgs/pURPLE CITY.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    height: 120vh;
+    position: relative;
+}
+.btn-1 {
+
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    background-color: #0051ff;
+    color: white; 
+    font-weight: 900; 
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transition: 0.7s ease;
+}
+.btn-2 {
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    background-color: #0051ff;
+    color: white; 
+    font-weight: 900; 
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    top: 50%;
+    left: 65%;
+    transition: 0.7s ease;
+}
+.btn-1:hover {
+    transform: scale(1.1);
+}
+.btn-2:hover {
+    transform: scale(1.1);
+}
+.img-1 {
+    width: 32%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 40px;
+    box-shadow: 6px 9px 6px 3px #971997;
+    transition-duration: 2s;
+    margin-bottom: 100px;
+}
+
+.img-2 {
+    position: absolute; 
+    width: 350px;
+    top: 20%;
+    left: 52%;
+    transition-duration: 3s;
+}
+.img-1:hover {
+    transform: translatey(15px);
+}
+.img-2:hover {
+    transform: translatey(15px);
+}
+.trailer {
+    background-image: url("imgs/Vanilla Unicorn.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+}
+iframe {
+    width: 700px ;
+    height: 600px;
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+    box-shadow: 9px 7px 6px 5px #971997;
+    transition: 0.7s ease;
+}
+iframe:hover {
+    transform: scale(1.05);
+}
+.about {
+    background-image: url("imgs/380132.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    height: 120vh;
+    position: relative;
+}
+.img-3 {
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 5px aqua;
+    transition: 0.7s ease
+}
+.img-3:hover {
+    transform: scale(1.05);
+}
+.topic {
+    color: white;
+    width: 35%;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    position: absolute;
+    top: 62%;
+    left: 31%;
+    background-image: url("imgs/download.jpeg");
+    font-size: 17px;
+    line-height: 22px;
+    transition: 0.7s ease;
+}
+.topic:hover {
+    transform: scale(1.05)
+}
+.saints {
+    background-image: url("imgs/149829.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    height: 120vh;
+    position: relative;
+}
+.btn-3 {
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    background-color: #991499c9;
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    width: fit-content;
+    text-align: center;
+    top: 50%;
+    left: 24%;
+    transition: 0.7s ease;
+    height: fit-content;
+    font-size: 50px;
+}
+.btn-3:hover {
+    transform: scale(1.1);
+}
+.kevin {
+    background-image: url("imgs/landscape-anime-digital-art-fantasy-art-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+}
+.kev {
+    height: 620px;
+    position: absolute;
+    top: 13%;
+    transition: 0.7s ease;
+}
+.kev:hover {
+    transform: scale(1.1);
+}
+.kevin div {
+    color: white;
+    background-color: #00000059;
+    width: 600px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    position: absolute;
+    top: 29%;
+    left: 46%;
+    font-size: 28px;
+    line-height: normal;
+    transition: 0.7s ease;
+    font-weight: 600;
+}
+.kevin div:hover {
+    transform: scale(1.1);
+}
+.neenah {
+    background-image: url("imgs/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+}
+.nen {
+    height: 620px;
+    position: absolute;
+    top: 13%;
+    transition: 0.7s ease;
+}
+.nen:hover {
+    transform: scale(1.1);
+}
+.neenah div {
+    color: white;
+    background-color: #00000059;
+    width: 600px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    position: absolute;
+    top: 29%;
+    left: 46%;
+    font-size: 28px;
+    line-height: normal;
+    transition: 0.7s ease;
+    font-weight: 600;
+}
+.neenah div:hover {
+    transform: scale(1.1);
+}
+.ELI {
+    background-image: url("imgs/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+}
+.e {
+    height: 620px;
+    position: absolute;
+    top: 13%;
+    transition: 0.7s ease;
+}
+.e:hover {
+    transform: scale(1.1);
+}
+.ELI div {
+    color: white;
+    background-color: #00000059;
+    width: 600px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    position: absolute;
+    top: 29%;
+    left: 46%;
+    font-size: 28px;
+    line-height: normal;
+    transition: 0.7s ease;
+    font-weight: 600;
+}
+.ELI div:hover {
+    transform: scale(1.1);
+}
+.BOSS {
+    background-image: url("imgs/action-adventure-crime-cyberpunk-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+}
+.boss {
+    height: 620px;
+    position: absolute;
+    top: 13%;
+    transition: 0.7s ease;
+}
+.boss:hover {
+    transform: scale(1.1);
+}
+.BOSS div {
+    color: white;
+    background-color: #00000059;
+    width: 600px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    position: absolute;
+    top: 29%;
+    left: 46%;
+    font-size: 28px;
+    line-height: normal;
+    transition: 0.7s ease;
+    font-weight: 600;
+}
+.BOSS div:hover {
+    transform: scale(1.1);
+}
+footer{
+    background-color: black;
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
