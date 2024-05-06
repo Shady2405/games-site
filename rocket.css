@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    background-image: url(rocketbackground.jpg);
+    background-size: cover;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    transform: translate(40px,0px);
+}
+.nav {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: x-large;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+.nav div {
+    margin: 30px 50px 10px;
+    transform: translateX(50px);
+    height: 40px;
+    transition-duration: 0.3s;
+}
+.nav div a {
+    text-decoration: none;
+    color: rgb(255, 175, 2);
+}
+.nav div:hover {
+    background-color: rgb(48, 47, 47);
+    border-radius: 5px;
+}
+.backwithdownload {
+    background-color: rgba(128, 128, 128, 0.247);
+    width: 500px;
+    height: 600px;
+    transform: translate(1000px,-80px);
+    border-radius: 10px;
+}
+.rocket {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    color: rgb(255, 175, 2);
+    margin-bottom: 20px;
+    transform: translate(140px,100px);
+}
+.free {
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(142px,100px);
+}
+.backwithdownload div {
+    width: fit-content;
+}
+.backwithdownload  img{
+    width: 200px;
+    height: 200px;
+    transform: translate(160px,50px);
+}
+.down {
+    transform: translate(140px,90px);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(255, 175, 2);
+    margin: 20px auto;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.down:hover {
+    border: solid 5px gray;
+}
+.letsplay {
+    width: fit-content;
+    height: fit-content;
+    color: aliceblue;
+    transform: translate(10px,250px);
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+.ll {
+    width: fit-content;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+.trail {
+    transform: translate(200px,-250px);
+    width: fit-content;
+}
+.trail button {
+    background-color: blue;
+    width: 140px;
+    height: 55px;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    transform: skewX(-20deg);
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.trail :hover {
+    transform: translatey(-1px);
+}
+.wel {
+    color: aqua;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.wel1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.wel2 {
+    width: 700px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: translateX(400px);
+}
+.trailer {
+    background-color: rgba(0, 0, 0, 0.438);
+    height: 500px;
+    width: fit-content;
+    border-radius: 10px;
+    transform: translateX(5px);
+}
+.trailer div {
+    display: inline;
+    margin-right: 300px;
+}
+.trailer div video {
+    width: 600px;
+    height: 400px;
+    transform: translate(20px,30px);
+}
+.trailer div img {
+    width: 300px;
+    height: 400px;
+    transform: translate(200px,0px);
+    border-radius: 20px;
+    animation-name: ani1;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.trailertext {
+    width: fit-content;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    transform: translate(240px,10px);
+}
+@keyframes ani1 {
+    from {
+        box-shadow: 0px 10px 5px 0px rgb(44, 42, 42);
+    }
+    to {
+        box-shadow: 0px 0px 20px 10px rgb(44, 41, 41);
+    }
+}
+.season14 {
+    display: flex;
+    color: aliceblue;
+}
+.season14 div img {
+    width: 1000px;
+}
+.k {
+    background-color: rgb(255, 153, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 562px;
+    text-align: center;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+}
+.rewards {
+    display: flex;
+    transform: translateY(-5px);
+}
+.rewards video {
+    width: 65.8%;
+    transform: translateX(0px);
+}
+.some1 {
+    background-color: rgb(61, 61, 61);
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.some {
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+}
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wh {
+    height: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+}
+.news div {
+    margin-right: 50px;
+}
+.news div form button {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.news div form div {
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.new1 {
+    background-image: url(ro1.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.new2 {
+    background-image: url(ro2.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.new3 {
+    background-image: url(ro3.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news div form {
+    transition-duration: 1s;
+} 
+.news div form:hover {
+    transform: translatey(-10px);
+} 
+.cars {
+    background-color: rgba(0, 0, 0, 0.267);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.text1 {
+    margin-bottom: 50px;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    font-style: normal;
+}
+.cars-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translatex(0px);
+}
+.cars-section div img {
+    height: 300px;
+}
+.cars-section div div {
+    background-color: grey;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+}
+footer{
+    background-color: black;
+    transform: translate(0px,100px);
+    width: 100%;
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+

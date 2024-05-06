@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+.mango {
+    display: flex;
+    justify-content: center;
+}
+.about {
+    color: aliceblue;
+    display: flex
+}
+.about div {
+    margin-left: 130px;
+    font-size: 20px;
+}
+.id {
+    color: aliceblue;
+    display: flex;
+}
+.id div {
+    color: aliceblue;
+    margin-left: 160px;
+    padding-left: 20px;
+    transform: translate(-90px,100px);
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
