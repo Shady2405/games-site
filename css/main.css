@@ -1,0 +1,65 @@
+.body {
+    z-index: 1000;
+    background-image: url(OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    background: grey;
+    border: solid 5px rgb(168, 79, 168);
+    display: flex;
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+} 
+.h1 {
+    position: relative;
+    left: 120px;
+}
+.h2 {
+    position: relative;
+    left: 260px;
+}
+.h3 {
+    position: relative;
+    left: 405px;
+}
+.lin1 {
+    text-decoration: none;
+    color: black;
+}
+.lin1:hover {
+    text-decoration: underline;
+    color: white;
+}
+.ff{
+    position: relative;
+    bottom: 600px;
+    left: 50%;
+    z-index: 66px;
+}
+.div1{
+background-color: aquamarine;
+width:600px;
+height: 200px;
+padding: 20px;
+margin: 60px auto;
+display: flex;
+align-items: flex-start;
+}
+    
+.flex div1{
+    background-color: blueviolet;
+color:whit
+
+
+
+
+}
+
+  

@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+.light {
+    background-color: #fff;
+    color: #000000;
+}
+
+button {
+    background-color: unset;
+}
+
+.fa-regular, .far {
+    font-size: 25px;
+    color: bisque;
+    font-weight: 400;
+}
+
+.ul {
+    list-style: none;
+    position: absolute;
+    left: 410px;
+    top: 600px;
+}
+
+.ul .li {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px;
+    display: inline;
+    transition-duration: 1s;
+    
+}
+
+.ul .li a {
+    color: bisque;
+    text-decoration: none;
+}
+
+
+.ul .li:hover {
+    border-bottom: 10px solid #dbd4d2;
+}
+
+.name h2  {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: bisque;
+    font-size: 80px;
+    transition-duration: 3s;
+}
+
+.name h2:hover {
+    transform: translateY(20px);
+}
+
+.name {
+    background: url(imgs/mw-hero.jpg) center center no-repeat;
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+
+
+.video {
+    top: 110px;
+    position: relative;
+    display: flex;
+    width: 550px;
+    height: auto;
+    margin: 25px;
+    box-shadow: 6px 5px 13px 0px peachpuff;
+    border: 10px solid brown;
+    border-radius: 10px;
+    transition-duration: 3s;
+}
+
+.video video {
+    height: 305px;
+    width: 570px;
+}
+
+.video:hover {
+    transform: translateY(20px);
+}
+
+h3 {
+    text-shadow: -2px 0px 5px #399ea1;
+    text-transform: capitalize;
+    color: #dbd4d2;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    transition-duration: 3s;
+}
+
+h3:hover {
+    transform: translateY(20px);
+}
+
+.content p {
+    line-height: 30px;
+    box-shadow: 1px -1px 8px 10px #76756c;
+    border-radius: 10px;
+    background-color: #7e7e6c;
+    border: 2px solid #7e7e6c;
+    left: 650px;
+    bottom: 300px;
+    position: relative;
+    width: 550px;
+    color: #dbd4d2;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition-duration: 3s;
+}
+
+.parag:hover {
+    transform: translateY(20px);
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.ccc {
+    box-shadow: 6px 5px 13px 0px peachpuff;
+    border: 10px solid brown;
+    margin-right: 85px;
+}
+
+.img .one,
+.img .two,
+.img .three  {
+    display: flex;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trailer h3 {
+    font-size: 40px;
+    color: antiquewhite;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+.trailer video {
+    left: 200px;
+    position: relative;
+    display: flex;
+    width: 1000px;
+    height: auto;
+    margin: 25px;
+    box-shadow: 6px 5px 13px 0px peachpuff;
+    border: 10px solid brown;
+    border-radius: 10px;
+}
+
+hr {
+    border-radius: 10px;
+    border: 5px solid #787057;
+}
+
+img:hover {
+    transform: translateY(10px);
+}
+
+
+.mid {
+    background: url(imgs/trailer-bg.png) center center/cover no-repeat;
+    height: 100vh;
+}
+
+.more .font .second {
+    width: 400px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-shadow: -2px 0px 5px #399ea1;
+    text-transform: capitalize;
+    color: #dbd4d2;
+    font-size: 50px;
+    margin-top: 10px;
+    transform: translate(1000px, 10px);
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+
+}
+
+.first {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: bisque;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.more .font .special {
+    width: 400px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-shadow: -2px 0px 5px #252a2b;
+    text-transform: capitalize;
+    color: #a81b10;
+    font-size: 30px;
+    margin-top: 10px;
+    transform: translate(1000px, 10px);
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+}
+
+.more .font .primary {
+    width: 400px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-shadow: -2px 0px 5px #252a2b;
+    text-transform: capitalize;
+    color: #d5aaa7;
+    font-size: 20px;
+    margin-top: 10px;
+    transform: translate(1000px, 10px);
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+}
+
+.four .sss {
+    transform: translate(10px, -310px);
+    width: 500px;
+    height: 245px;
+}
+
+.sss {
+    border: 10px solid #d5aaa7;
+    text-shadow: -2px 0px 5px #252a2b;
+}
+
+.final {
+    background: url(imgs/bg-img.png) center center/cover no-repeat;
+    height: 100vh;
+}
+
+.font .third {
+    width: 400px;
+    margin-left: 20px;
+    transform: translate(10px, 2px);
+    color: #fff;
+    font-family: 'Roboto Condensed' , sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+}
+.font .paragraph {
+    margin-left: 20px;
+    width: 400px;
+    transform: translate(10px, 2px);
+    color: #fff;
+    font-family: 'Roboto Condensed' , sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.five .wzm {
+    transform: translate(900px, -240px);
+    width: 500px;
+    height: 245px;
+}
+
+.wzm {
+    text-shadow: -2px 0px 5px #252a2b;
+}
+
+.font .fourth {
+    width: 400px;
+    margin-left: 20px;
+    transform: translate(900px, -215px);
+    color: #fff;
+    font-family: 'Roboto Condensed' , sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+}
+.font .paragraph2 {
+    margin-left: 20px;
+    width: 400px;
+    transform: translate(900px, -215px);
+    color: #fff;
+    font-family: 'Roboto Condensed' , sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.six .wzm2 {
+    transform: translate(10px, -470px);
+    width: 500px;
+    height: 245px;
+}
+
+.wzm2 {
+    text-shadow: -2px 0px 5px #252a2b;
+}
+.play {
+    width: 180px;
+}
+
+.play,
+.app {
+    cursor: pointer;
+    margin: 30px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
