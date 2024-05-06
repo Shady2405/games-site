@@ -1,0 +1,319 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+.main {
+    background-image: url("imgs/fc24-authenticity-premier-league-hero-lg-page-header-xl-16x9.jpg.adapt.1456w.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+header {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+} 
+
+.online {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 10px;
+    margin-left: 10px;
+} 
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    transition: 0.7s;
+
+} 
+
+ a:hover {
+    color: purple;
+    transform: scale(1.1);
+
+}
+
+h1 {
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    background-color: #6de842;
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+section {
+    position: relative;
+}
+
+
+
+.img-1 {
+    width: 32%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 40px;
+    box-shadow: 6px 9px 6px 3px #6de842;
+    transition-duration: 2s;
+    margin-bottom: 100px;
+}
+
+.img-2 {
+    position: absolute;
+    top: 17%;
+    left: 55%;
+    transition-duration: 2s;
+}
+
+.welcome {
+    position: absolute;
+    color: #f3f3f3;
+    top: 35%;
+    left: 54%;
+    font-size: 400%;
+    line-height: 0.95;
+    font-weight: 900;
+    width: 430px;
+    text-align: center;
+    transition-duration: 2s;
+    text-transform: capitalize;
+}
+
+.pp {
+    color: #f3f3f3;
+    line-height: 1.5;
+    width: 405px;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    top: 58%;
+    left: 56%;
+    text-transform: capitalize;
+    transition-duration: 2s;
+}
+
+.pp:hover {
+    transform: translatey(10px);
+}
+
+.welcome:hover {
+    transform: translatey(10px);
+}
+
+img:hover {
+    transform: translatey(10px);
+
+}
+
+.trailer {
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    background-color: #6de842;
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.sec {
+    background-image: url("imgs/fc24-hero-md-airmaxvinijr-7x2-xl.jpg.adapt.1456w.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+iframe {
+    width: 800px !important;
+    height: 650px;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+.third {
+    background-image: url("imgs/wp12562477-fifa-24-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.more {
+    width: 700px;
+    height: 750px;
+    position: relative;
+}
+
+.create {
+    position: absolute;
+    color: #f3f3f3;
+    top: 8%;
+    left: 5%;
+    font-size: 400%;
+    line-height: 0.95;
+    font-weight: 900;
+    width: 380px;
+    text-align: center;
+    transition-duration: 2s;
+    text-transform: uppercase;
+}
+
+.four {
+    height: 505px;
+}
+
+.m {
+    background-image: url("imgs/fc24-hero-md-fc-ratings-7x2-xl.jpg.adapt.crop5x2.1455w.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.try {
+    position: absolute;
+    color: #f3f3f3;
+    top: 50%;
+    left: -2%;
+    font-size: 320%;
+    line-height: 0.95;
+    font-weight: 900;
+    width: 900px;
+    text-align: center;
+    transition-duration: 2s;
+    text-transform: uppercase;
+}
+.leaderboard {
+    width: 80%;
+    margin: 0px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #eee;
+    font-weight: 900;
+}
+.back {
+    background-color: #aaa;
+    
+}
+.list {
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    height: 60vh;
+    font-size:  20px; ;
+}
+.min {
+margin-left: 20%;
+padding-top: 50px;
+}
+.rec {
+margin-left: 60%;
+position: absolute;
+top: 12%;
+}
+.lii {
+    margin-left: 5%;
+}
+.lr {
+    margin-left: 15%;
+}
+
+
+
+
+
+
+footer{
+    background-color: black;
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
