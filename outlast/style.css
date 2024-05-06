@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 20px;
+    background-color: #000314e0;
+}
+.game {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.game img {
+    align-self: center;
+    width: 600px;
+    height: auto;
+    
+    
+}
+
+.game span {
+    height: 70px;
+    background-color: #0030168e;
+    font-size: large;
+    font-style: italic;    
+    
+}
+.gameinfo {
+    display: flex;
+    flex-direction: column;
+}
+.gif {
+    height: 100;
+    width: 600px;
+}
+.about{
+    color: #e4e4e4;
+    
+    width: 700px;
+    height: 110px;
+    background-color: #00000079;
+    margin-bottom: -50px;
+
+}
+.vid1{
+    width: 800px;
+    height: 600px;
+}
+.sys { color: #e4e4e4;
+ }
+.systemreq {display: grid;
+    
+    height: 200px;
+    width: 540px;
+    background-color: rgba(7, 0, 0, 0.589);
+    grid-template-columns: 600px 600px;
+    text-decoration: underline;
+
+    color: #e4e4e4;
+}
+.h2{
+margin-left: 600px;
+    font-size: xx-large;
+    color: #fffcfccb;
+text-shadow: 4px 4px rgb(0, 32, 10);
+
+}
+.background{
+    
+}
+
+footer{
+    background-color: black;
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
