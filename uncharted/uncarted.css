@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.light {
+    background-color: #000;
+    color: #fff;
+}
+
+button {
+    background-color: unset;
+}
+
+.fa-regular, .far {
+    font-size: 25px;
+    color: bisque;
+    font-weight: 400;
+}
+
+.ul {
+    list-style: none;
+    position: absolute;
+    left: 410px;
+    top: 600px;
+}
+
+.ul .li {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px;
+    display: inline;
+    transition-duration: 1s;
+    
+}
+
+.ul .li a {
+    color: bisque;
+    text-decoration: none;
+}
+
+
+
+
+.ul .li:hover {
+    border-bottom: 10px solid #dbd4d2;
+}
+
+.name h2 {
+    
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: -1px 6px 12px #9e1f1f;
+    height: 75%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #d0ae4a;
+    font-size: 100px;
+    font-weight: 400;
+    transition-duration: 3s;
+}
+.name h2:hover {
+    transform: translateY(20px);
+}
+
+.name {
+    background: url(imgs/uncharted-legacy-of-thieves-screenshot-22-en-10jan22.webp) center center/cover no-repeat;
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: fantasy;
+    font-size: 40px;
+    font-weight: 500
+}
+
+
+
+.video {
+    display: flex;
+    width: 600px;
+    height: auto;
+    margin: 25px;
+}
+
+.video video {
+    height: 700px;
+    width: 500px;
+    box-shadow: 6px 5px 13px 0px peachpuff;
+    border: 10px solid #c8bc57;
+    border-radius: 10px;
+}
+
+h3 {
+    text-shadow: -1px 6px 12px #9e1f1f;
+    text-transform: capitalize;
+    color: #2e2407;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    transition-duration: 3s;
+}
+
+h3:hover {
+    transform: translateY(20px);
+}
+
+
+.s {
+    line-height: 30px;
+    box-shadow: 1px -1px 8px 10px #2e2e6e;
+    border-radius: 10px;
+    background-color: #b5b35f;
+    border: 2px solid #b5b35f;
+    left: 700px;
+    top: 880px;
+    position: absolute;
+    width: 420px;
+    color: #2e2407;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition-duration: 3s;
+}
+
+.s:hover {
+    transform: translateY(20px);
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.sss {
+    box-shadow: 6px 5px 13px 0px peachpuff;
+    border: 10px solid #213d56;
+    margin-right: 85px;
+    transition-duration: 3s;
+}
+
+.sss:hover {
+    transform: translateY(20px);
+}
+
+.img .one,
+.img .two,
+.img .three
+{ 
+    display: flex;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+hr {
+    border-radius: 10px;
+    border: 5px solid #c9d0d6;
+}
+
+.c1 {
+    color: #2e2407;
+    font-family: cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.special {
+    transform: translateX(900px);
+    width: 500px;
+    height: 500px
+}
+.c {
+    height: 360px;
+    box-shadow: 1px -1px 8px 10px #2e2e6e;
+    border-radius: 10px;
+    background-color: #b5b35f;
+    border: 2px solid #b5b35f;
+    font-family: fantasy;
+    width: 500px;
+    line-height: 40px;
+    transform: translate(20px, -400px);
+}
+
+.c2 {
+    color: #2e2407;
+    font-family: cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.special1 {
+    transform: translate(10px,45px);
+    width: 500px;
+    height: 500px
+}
+
+.samuel {
+    height: 360px;
+    box-shadow: 1px -1px 8px 10px #2e2e6e;
+    border-radius: 10px;
+    background-color: #b5b35f;
+    border: 2px solid #b5b35f;
+    font-family: fantasy;
+    width: 500px;
+    line-height: 40px;
+    transform: translate(900px, -400px);
+}
+
+.c3 {
+    color: #2e2407;
+    font-family: cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.special2 {
+    transform: translate(900px,40px);
+    width: 500px;
+    height: 500px
+}
+.elena {
+    height: 360px;
+    box-shadow: 1px -1px 8px 10px #2e2e6e;
+    border-radius: 10px;
+    background-color: #b5b35f;
+    border: 2px solid #b5b35f;
+    font-family: fantasy;
+    width: 500px;
+    line-height: 40px;
+    transform: translate(20px, -400px);
+}
+
+.trailer h3 {
+    font-size: 40px;
+    color: antiquewhite;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+.trailer iframe {
+    left: 200px;
+    position: relative;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin: 25px;
+    box-shadow: 6px 5px 13px 0px peachpuff;
+    border: 10px solid #213d56;
+    border-radius: 10px;
+    transition-duration: 3s;
+}
+footer{
+    background-color: black;
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}

@@ -1,0 +1,205 @@
+body{
+    padding: auto;
+    margin: auto;
+    width: 1535px;
+    height: 3800px;
+    background-color: black;
+}
+.img1{
+    padding: 0%;
+    position: absolute;
+    left: 0px;
+    background-color: black;
+margin-top: auto;
+margin-left: 0%;
+margin-right: 0%;
+margin-bottom: auto;
+}
+.p1{
+    padding: auto;
+    position: absolute;
+    top: 570px;
+    font-size: 65px;
+    color: rgb(216, 211, 202);
+    background-color:black;
+    border: 50px;
+    border-color: black;
+    text-shadow: 4px 4px 4px rgb(115, 25, 25);
+    font-family:cursive;
+    transition-duration: 1s;
+}
+.p1:hover{
+    transform: translate(0, -15px);
+    color: black;
+    text-shadow: 6px 6px 6px wheat;
+}
+.hr1{
+    padding: auto;
+    position: absolute;
+    top: 900px;
+    color: white;
+    box-shadow: 6px 6px 6px 6px rgb(9, 226, 255);
+    width: 1535px;
+
+}
+.t{
+    padding: auto;
+    position: absolute;
+    top: 920px;
+    color: aliceblue;
+    font-size: 65px;
+    position: absolute;
+    left: 590px;
+    color: rgb(9, 226, 255);
+    text-shadow: 4px 4px 4px rgb(216, 211, 202);
+    transition-duration: 1s;
+}
+.t:hover{
+    transform: translate(0, -15px);
+    color: rgb(216, 211, 202);
+    text-shadow: 4px 4px 4px rgb(9, 226, 255);
+}
+.video{
+    padding: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    box-shadow: 8px 8px 8px 8px rgb(9, 226, 255);
+    transition-duration: 1s;
+}
+.video:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(216, 211, 202);
+}
+.hr3{
+    padding: auto;
+    position: absolute;
+    top: 1700px;
+    color: white;
+    box-shadow: 6px 6px 6px 6px rgb(9, 226, 255);
+    width: 1535px;
+
+}
+.img2{
+    padding: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 1800px;
+    left: 50px;
+    box-shadow: 8px 8px 8px 8px rgb(9, 226, 255);
+    transition-duration: 1s;
+}
+.img2:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(9, 226, 255);
+    
+}
+.p2{
+    position: absolute;
+    top: 1880px;
+    right: 240px;
+    color:aliceblue;
+    width: 530px;
+    font-size: 23px;
+    background-color: rgba(9, 226, 255, 0.36);
+    border-radius: 30px;
+    padding: 18px;
+    box-shadow: 8px 8px 8px 8px black;
+    transition-duration: 1s;
+}
+.p2:hover{
+    transform: translate(0,-15px);
+    text-shadow: 4px 4px 4px rgb(9, 226, 255);
+}
+.hr2{
+    padding: auto;
+    position: absolute;
+    top: 2420px;
+    width: 1535px;
+    color: white;
+    box-shadow: 6px 6px 6px 6px rgb(9, 226, 255);
+}
+.p3{
+    position: absolute;
+    top: 2500px;
+    color: aliceblue;
+    font-size: 65px;
+    transition-duration: 1s;
+    color: rgba(24, 131, 146, 0.57);
+}
+.p3:hover{
+    transform: translate(0,-15px);
+    color: black;
+    text-shadow: 6px 6px 6px rgb(9, 226, 255);
+}
+.img3{
+    padding: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 2600px;
+    box-shadow: 8px 8px 8px 8px rgb(9, 226, 255);
+    transition-duration: 1s;
+}
+.img3:hover{
+    transform: translate(0,-15px);
+}
+footer{
+    background-color: black;
+    transform: translateY(3400px)
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}

@@ -1,0 +1,299 @@
+body{
+    padding: auto;
+    background-color: black;
+    height: 4000px;
+   
+
+}
+.first{
+    padding:auto;
+    border: auto;
+    margin: auto;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+    top: 0;
+}
+.img1{
+    padding: auto;
+    position: absolute;
+    left: 370px;
+    top: 0%;
+}
+.img2{
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    box-shadow: 8px 8px 8px 8px rgb(91, 6, 6);
+    border-color: black;
+    left: 150px;
+    transition-duration: 1s;
+}
+.img2:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(154, 107, 107);
+}
+.img3{
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    left: 380px;
+    box-shadow: 8px 8px 8px 8px rgb(91, 6, 6);
+    transition-duration: 1s;
+}
+.img3:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(154, 107, 107);
+}
+.img4{
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    left: 610px;
+box-shadow: 8px 8px 8px 8px rgb(91, 6, 6);
+transition-duration: 1s;
+}
+.img4:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(154, 107, 107);
+}
+.img5{
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    left: 840px;
+    box-shadow: 8px 8px 8px 8px rgb(91, 6, 6);
+    transition-duration: 1s;
+}
+.img5:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(154, 107, 107);
+}
+.img6{
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    left: 1070px;
+    box-shadow: 8px 8px 8px 8px rgb(91, 6, 6);
+    transition-duration: 1s;
+}
+.img6:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(154, 107, 107);
+}
+
+.img7{
+    position: absolute;
+    top: 750px;
+}
+.img8{
+    position: absolute;
+    top: 1000px;
+    left: 550px;
+}
+.t{
+    padding: 20px;
+    position: absolute;
+    top: 1700px;
+    left: 570px;
+    color: rgb(91, 6, 6);
+    font-size: 65px;
+    transition-duration: 1s;
+}
+.t:hover{
+    transform: translate(0,-10px);
+    text-shadow: 5px 5px 5px rgb(91, 6, 6);
+    color: rgb(0, 0, 0);
+}
+.video{
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1800px;
+    left: 250px;
+    box-shadow: 8px 8px 8px 8px rgb(91, 6, 6);
+    transition-duration: 1s;
+}
+.video:hover{
+    transform:translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(154, 107, 107);
+}
+.about{
+    padding-left: 682px;
+    padding-right: 682px;
+    position: absolute;
+    top: 2500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(91, 6, 6);
+    font-size: 60px;
+   
+}
+.img9{
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 2600px;
+    left: 50px;
+    box-shadow: 8px 8px 8px 8px rgb(91, 6, 6);
+    transition-duration: 1s;
+}
+.img9:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(154, 107, 107);
+}
+.text{
+    padding: 20px;
+    position: absolute;
+    top: 2650px;
+    left: 670px;
+    width: 450px;
+    box-shadow: 8px 8px 8px 8px rgb(91, 6, 6);
+    color: aliceblue;
+    border-radius: 30px;
+    background-color: rgba(91, 6, 6, 0.205);
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6;
+    transition-duration: 1s;
+}
+.text:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(154, 107, 107);
+}
+.hr1{
+    padding: 10px;
+    position: absolute;
+    top: 3200px;
+    left: 0;
+    border-color: rgb(91, 6, 6);
+    color: rgb(91, 6, 6);
+    box-shadow: 4px 4px 4px 4px rgb(0, 0, 0);
+    width: 1500px;
+
+}
+.hr2{
+    padding: 10px;
+    position: absolute;
+    top: 1650px;
+    left: 0;
+    border-color: rgb(91, 6, 6);
+    color: rgb(91, 6, 6);
+    box-shadow: 4px 4px 4px 4px rgb(0, 0, 0);
+    width: 1500px;
+
+}
+.hr3{
+    padding: 10px;
+    position: absolute;
+    top: 700px;
+    left: 0;
+    border-color: rgb(91, 6, 6);
+    color: rgb(91, 6, 6);
+    box-shadow: 4px 4px 4px 4px rgb(0, 0, 0);
+    width: 1500px;
+}
+.img10{
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 3300px;
+    left: 120px;
+    width: 300px;
+    box-shadow: 8px 8px 8px 8px rgb(91, 6, 6);
+    transition-duration: 1s;
+}
+.img10:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(154, 107, 107);
+}
+.img11{
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 3300px;
+    width: 300px;
+    box-shadow: 8px 8px 8px 8px rgb(91, 6, 6);
+    left: 530px;
+    transition-duration: 1s;
+}
+.img11:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(154, 107, 107);
+}
+.img12{
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 3300px;
+    left: 940px;
+    width: 300px;
+    box-shadow: 8px 8px 8px 8px rgb(91, 6, 6);
+    transition-duration: 1s;
+}
+.img12:hover{
+    transform: translate(0,-15px);
+    box-shadow: 8px 8px 8px 8px rgb(154, 107, 107);
+}
+footer{
+    background-color: black;
+    transform: translateY(3800px)
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
