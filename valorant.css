@@ -1,0 +1,293 @@
+body {
+    background-color: black;
+    height: 1000px;
+    width: fit-content;
+}
+
+.light {
+    background-color: #fff;
+    color: #000000;
+}
+
+i {
+    
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(valoo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(5px);
+}
+.content {
+    transform: translate(150px, 155px);
+    border-radius: 20px;
+    width: fit-content;
+    animation-name: animation-st;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+.oo {
+    width: 450px;
+    height: 410px;
+    border-radius: 20px;
+}
+@keyframes animation-st {
+    from{
+        box-shadow: 0px 0px 0px 0px;
+    }
+    to {
+        box-shadow: 3px 2px 17px 20px red;
+    }
+}
+.valo1 {
+    width: 409px;
+    transform: translate(955px, -350px);
+    color: white;
+    line-height: 1.26;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    animation-name: ani-2;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.backk {
+    width: 425px;
+    height: 660px;
+    background-color: #808080b5;
+    transform: translate(945px, -1000px);
+    border-radius: 20px;
+    animation-name: ani-2;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes ani-2 {
+    from {
+        transform: translate(1370px,-1000px);
+    }
+    to {
+        transform: translateX(945px,-1000px);
+    }
+}
+.text1 {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+    transform: translate(670px, -845px);
+    font-size: 70px;
+    width: fit-content;
+    background-color:#ff0000ba;
+    border-style: double;
+    color: aliceblue;
+}
+.gameplay {
+    transform: translate(400px, -665px);
+    width: fit-content
+}
+.backgame {
+    background-color: #ff0000ba;
+    width: 1014px;
+    height: 500px;
+    transform: translate(290px, -1217px);
+    position: absolute;
+    z-index: -1;
+    border-style: double;
+    border-bottom: none ;
+    border-radius: 20px
+}
+.hr1 {
+    
+    border-style: double;
+    transform: translate(9px, -498px);
+    color: darkred;
+
+}
+.text2 {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+    transform: translate(670px, -400px);
+    font-size: 70px;
+    width: fit-content;
+    background-color:#ff0000ba;
+    border-style: double;
+    color: aliceblue;
+}
+.ry {
+    width: fit-content;
+}
+.jett {
+    transform: translate(150px, -285px);
+}
+.omen {
+    transform: translate(450px, -560px);
+}
+.reyna {
+    transform: translate(1040px,-1820px) 
+}
+.raze {
+    transform: translate(790px, -835px);
+}
+.pheonix {
+    transform: translate(1120px, -1110px);
+}
+.ba {
+    background-color: #8080802e;
+    width: 1230px;
+    height: 655px;
+    transform: translate(120px, -1675px);
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px 10px red;
+}
+.agentt {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(200px, 35px);
+    width: fit-content;
+}
+.agentt div {
+    width: fit-content;
+    display: block;
+    text-align: center;
+    margin-right: 270px;
+    font-size: xx-large;
+    border-radius: 20px;
+    color: aliceblue;
+    height: fit-content;
+}
+.jett img {
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+.omen img {
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+.raze img {
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+.pheonix img {
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+.jett img:hover {
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 17px 4px red;
+}
+.omen img:hover {
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 17px 4px rgb(2, 1, 29);
+}
+.raze img:hover {
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 17px 4px rgb(255, 0, 85);
+}
+.pheonix img:hover {
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 17px 4px rgb(216, 210, 210);
+}
+.kkt {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+    transform: translate(0px, -855px);
+    font-size: 70px;
+    width: fit-content;
+    background-color:#ff0000ba;
+    border-style: double;
+    color: aliceblue;
+}
+.about-agents {
+    color: aliceblue;
+    line-height: 30px;
+    line-break: anywhere;
+    width: 90%;;
+    text-align: center;
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    transition-duration: 2s;
+    transform: translate(80px,-800px);
+}
+.about-agents:hover {
+    background-color: #ff0000ba;
+}
+
+footer{
+    background-color: black;
+    transform: translate(0px,700px);
+    width: 100%;
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+
