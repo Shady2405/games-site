@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>log in</title>
+     <script>
+        function validateForm() {
+            const nameInput = document.getElementById("u");
+            const nameValue = nameInput.value.trim();
+
+            if (nameValue === "") {
+                alert("Email must be filled out");
+                return false;
+            }
+            
+
+            return true; 
+        }
+    </script>
+    </head>
+    <body>
+     <form action="online.html" class="form1" onsubmit="return validateForm()">
+         <div class="us"><label for="u" >Email</label></div>
+        <input class="user" id="u" type="email" placeholder="Write Your Email"  autofocus>
+        <div class="us"><label for="i">password</label></div>
+        <input class="email" id="i" type="password" placeholder="Write Your Password" minlength="8" required>
+        <input class="sub" type="submit" value="sign in">
+        <div>don't have an acount! <a href="sign up.html">sign up</a></div>
+     </form>
+     <style>
+        .form1 {
+            position: relative;
+            left: 40%;
+            top: 230px;
+            display: block;
+            background-color:rgba(0, 0, 0, 0.342);
+            border: solid 2px black;
+            padding: 60px;
+            width: 179px;
+            height: 150px;
+            text-align: center;
+            border-radius: 20px;
+            transition-duration: 1s;
+            color: aliceblue;
+            
+        }
+     </style>
+     <style>
+        .form1:hover{
+            transform:translate(0px,-15px);
+            box-shadow: 2px 2px 2px 2px rgba(199, 195, 195, 0.466) ;
+
+
+
+
+
+        }
+     </style>
+     <style>
+        .us{
+            color: rgb(205, 81, 108);
+        }
+
+     </style>
+        <style>
+            body{
+                background-image: url(Video\ Games\ Wallpaper\ Top\ HD\ Background\ Xd.jpg);
+                z-index: 2;
+                background-repeat: no-repeat;
+    background-size: cover;
+background-position: 0% 0% ;
+background-attachment: scroll ;
+
+
+            }
+        </style>
+        <style>
+        .user{
+            padding: 5px;
+            font-size: small;
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+             border-radius: 20px;  
+
+        }
+         
+        </style>
+        <style>
+            .email{
+                padding: 5px;
+                font-size: small;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+            border-radius: 20px;
+
+            }
+        </style>
+        <style>
+            .sub{
+                margin: 15px;
+                border-radius: 5px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: large;
+
+
+            }
+
+        </style>
+    </body>
+</html>
